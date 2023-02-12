@@ -1,0 +1,14 @@
+.iconeHeader{
+    font-size:30px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.iconeTextHeader{
+    color: white;
+}
+
+.iconeHeader:hover{
+    color:yellow;
+    transition: color ease-in 0.25s;
+}
