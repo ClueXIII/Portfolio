@@ -1,14 +1,41 @@
+body{
+    background-color: black;
+}
+
+header {
+    border-bottom: 2px solid white;
+    border-spacing: 50px;
+}
 .iconeHeader{
     font-size:30px;
     color: #ffffff;
     padding-left: 10px;
 }
 
-.iconeTextHeader{
+.iconeTextHeader {
     color: white;
 }
 
-.iconeHeader:hover{
+.ulheader > li:hover .iconeHeader{
     color:yellow;
     transition: color ease-in 0.25s;
+}
+
+.ulheader > li:hover .iconeTextHeader {
+    color: yellow;
+    transition: color ease-in 0.25s;
+}
+
+.quentin {
+    font-size: 90px;
+    display : inline-block;
+    margin : 40px 0 0 20px;
+    padding : 8px 10px 10px 10px;
+}
+
+.garnier {
+    font-size: 90px;
+    display : inline-block;
+    margin : 30px 0 0 20px;
+    padding : 8px 10px 10px 10px;
 }
