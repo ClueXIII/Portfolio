@@ -1,9 +1,10 @@
 body{
     background-color: #000000;
+    font-family: Titillium Web, serif;
 }
 
 header {
-    border-bottom: 2px solid white;
+
     border-spacing: 50px;
 }
 .iconeHeader{
@@ -31,23 +32,24 @@ header {
 }
 
 .quentin {
-    font-size: 90px;
+    font-size: 110px;
     display : inline-block;
     margin : 40px 0 0 20px;
     padding : 8px 10px 10px 10px;
 }
 
 .garnier {
-    font-size: 90px;
+    font-size: 100px;
     display : inline-block;
     margin : 30px 0 0 20px;
     padding : 8px 10px 10px 10px;
 }
 
 div#titre_index > h2 {
-    font-size: 30px;
+    font-size: 40px;
     margin : 30px 0 0 20px;
     padding : 8px 10px 10px 10px;
+
 }
 
 .dev_img{
