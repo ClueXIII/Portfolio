@@ -1,72 +1,62 @@
+html{
+    overflow-y: hidden;
+}
+
 body{
     background-color: #000000;
     font-family: Titillium Web, serif;
 }
 
 header {
-
     border-spacing: 50px;
 }
 .iconeHeader{
     font-size:30px;
-    color: #ffffff;
+    color: #3e53ff;
     padding-left: 10px;
 }
 
 .iconeTextHeader {
-    color: white;
+    color: #3e53ff;
 }
 
 .ulheader > li:hover .iconeHeader{
-    color:yellow;
+    color:#8f75ff;
     transition: color ease-in 0.25s;
 }
 
 .ulheader > li:hover .iconeTextHeader {
-    color: yellow;
+    color: #8f75ff;
     transition: color ease-in 0.25s;
 }
 
-#titre_index{
-    margin : auto  auto;
+main{
+    height:100vh;
+    display: flex;
+    margin: 0;
+    background: linear-gradient(0deg, #2f1ba1, rgba(0, 0, 0, 0.35));
+    align-items: center;
+    justify-content: center;
+    user-select: none;
 }
 
-.quentin {
-    font-size: 110px;
-    display : inline-block;
-    margin : 40px 0 0 20px;
-    padding : 8px 10px 10px 10px;
+.group {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 100%;
+    width: 90%;
 }
 
-.garnier {
-    font-size: 100px;
-    display : inline-block;
-    margin : 30px 0 0 20px;
-    padding : 8px 10px 10px 10px;
+.item {
+    width: 35vw;
+    height: 83vh;
+    background-position: center;
+    background-size: 75vh;
+    margin: 1vw;
+    border-radius: 3vw;
+    display: inline-block;
+    cursor: pointer;
 }
 
-div#titre_index > h2 {
-    font-size: 40px;
-    margin : 30px 0 0 20px;
-    padding : 8px 10px 10px 10px;
 
-}
-
-.dev_img{
-    width : 100%;
-    padding-right : 35px;
-}
-
-.dev_img_div{
-    margin : auto;
-    padding: 30px 0;
-    position: relative;
-}
-
-#masque{
-    width:100%;
-    height:100%;
-    position:absolute;
-    top : 0px;
-    background:-webkit-linear-gradient(right,  rgba(255,255,255,0) 1%, rgb(0, 0, 0) 100%);
-}
