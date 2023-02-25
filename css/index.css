@@ -12,12 +12,12 @@ header {
 }
 .iconeHeader{
     font-size:30px;
-    color: #3e53ff;
+    color: #ffffff;
     padding-left: 10px;
 }
 
 .iconeTextHeader {
-    color: #3e53ff;
+    color: #ffffff;
 }
 
 .ulheader > li:hover .iconeHeader{
