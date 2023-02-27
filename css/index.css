@@ -28,17 +28,15 @@ header {
 }
 
 .ulheader > li:hover .iconeHeader{
-    color: #481dff;
+    color: #3f00ff;
     transform: translateY(-5px);
-    transition: color ease-in-out 0.5s;
-    transition: transform ease-in-out 0.5s;
+    transition: transform ease-in-out 0.25s;
 }
 
 .ulheader > li:hover .iconeTextHeader {
-    color: #481dff;
-    transition: color ease-in-out 0.5s;
+    color: #3100ff;
+    transition: color ease-in-out 0.25s;
     transform: translateY(15px);
-
 }
 
 main{
