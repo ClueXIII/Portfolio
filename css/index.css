@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: #000000;
+    background-color: #251981;
     font-family: Titillium Web, serif;
 }
 
@@ -28,13 +28,12 @@ header {
 }
 
 .ulheader > li:hover .iconeHeader{
-    color: #3f00ff;
     transform: translateY(-5px);
     transition: transform ease-in-out 0.25s;
 }
 
 .ulheader > li:hover .iconeTextHeader {
-    color: #3100ff;
+    color: rgb(255, 255, 255);
     transition: color ease-in-out 0.25s;
     transform: translateY(15px);
 }
@@ -43,7 +42,7 @@ main{
     height:100vh;
     display: flex;
     margin: 0;
-    background: linear-gradient(0deg, #2f1ba1, rgba(0, 0, 0, 0.35));
+    background: linear-gradient(180deg, rgba(37, 25, 129, 0.46), rgb(0, 0, 0));
     align-items: center;
     justify-content: center;
     user-select: none;
@@ -66,6 +65,16 @@ main{
     border-radius: 3vw;
     display: inline-block;
     cursor: pointer;
+    text-align: center;
+    overflow: hidden;
+}
+
+.title_service{
+    margin: 37vh 10px;
+    display: block;
+    font-size: 50px;
+    color: #789eff;
+    text-shadow: 3px 15px 15px #3441f8;
 }
 
 
