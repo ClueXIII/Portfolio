@@ -7,7 +7,7 @@ const expand = (item, i) => {
   })
   gsap.to(items, {
     width: item.clicked ? '15vw' : '8vw',
-    duration: 2,
+    duration: 29,
     ease: 'elastic(1, .6)'
   })
 
