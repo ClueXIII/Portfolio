@@ -63,10 +63,12 @@ main{
 }
 
 .group {
+    display: flex;
     text-align: center;
     overflow: hidden;
     height: 100%;
     width: 100%;
+    justify-content: center;
 }
 
 .item {
@@ -104,10 +106,133 @@ main{
     font-family: 'K2D', sans-serif;
 }
 
-body {
+@media (max-width: 1310px) {
+    .title_service {
+        font-size: 70px;
+    }
 
+    .right{
+        background: linear-gradient(to bottom,
+        rgba(28, 55, 164, 0.32) 70%,
+        rgba(28, 55, 164, 0.3) 100%),
+        url('../img/fond_montage.png') left;
+    }
 }
 
+@media (max-width: 1075px) {
+    .title_service {
+        font-size: 50px;
+    }
+}
 
+@media (max-width: 950px), (max-height : 400px) {
+    .group{
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+    }
 
+    .left{
+        border-radius: 20px 20px 0 0;
+    }
 
+    .right{
+        border-radius: 0 0 20px 20px;
+        margin: 0 0 10px 0;
+    }
+
+    .group {
+        justify-content: flex-start;
+    }
+
+    .item{
+        width: 90%;
+        height:45vh
+    }
+
+    .title_service{
+        margin : 28vw 0;
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    .group{
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+    }
+
+    .left{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .right{
+        border-radius: 0 0 20px 20px;
+        margin: 0 0 10px 0;
+    }
+
+    .item{
+        width: 90%;
+    }
+
+    .title_service{
+        margin : 17vw 0;
+        font-size: 70px;
+    }
+}
+
+@media (max-width:570px){
+    .title_service{
+        margin : 17vw 0;
+        font-size: 50px;
+    }
+
+    .group {
+        justify-content: flex-start;
+    }
+
+    .item{
+        height:40vh
+    }
+}
+
+@media (max-width:430px){
+    .title_service{
+        margin : 35vw 0;
+        font-size: 50px;
+    }
+
+    .item{
+        height:41vh
+    }
+
+    .nav-link{
+        padding:5px;
+    }
+}
+
+@media (max-width:300px){
+    .title_service{
+        margin : 38vw 0;
+        font-size: 30px;
+    }
+
+    .item{
+        height:38vh
+    }
+
+    .group {
+        justify-content: flex-start;
+    }
+
+    .nav-link{
+        padding:0;
+    }
+
+    .article-icone{
+        display:none;
+        visibility: hidden;
+    }
+}
