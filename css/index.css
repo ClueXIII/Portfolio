@@ -82,6 +82,11 @@ main{
     background-size:cover;
 }
 
+.item > a{
+    justify-content: center;
+    text-decoration: none;
+}
+
 .left{
     border-radius: 20px 0 0 20px;
     background: linear-gradient(to bottom,
@@ -100,10 +105,15 @@ main{
 
 .title_service{
     margin: 37vh 10px;
-    display: block;
     font-size: 90px;
     color: rgb(157, 184, 255);
     font-family: 'K2D', sans-serif;
+}
+
+.service_link{
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 1310px) {
@@ -125,36 +135,6 @@ main{
     }
 }
 
-@media (max-width: 950px), (max-height : 400px) {
-    .group{
-        flex-direction: column;
-        flex-grow: 1;
-        align-items: center;
-    }
-
-    .left{
-        border-radius: 20px 20px 0 0;
-    }
-
-    .right{
-        border-radius: 0 0 20px 20px;
-        margin: 0 0 10px 0;
-    }
-
-    .group {
-        justify-content: flex-start;
-    }
-
-    .item{
-        width: 90%;
-        height:45vh
-    }
-
-    .title_service{
-        margin : 28vw 0;
-        font-size: 100px;
-    }
-}
 
 @media (max-width: 750px) {
 
@@ -162,6 +142,7 @@ main{
         flex-direction: column;
         flex-grow: 1;
         align-items: center;
+        justify-content: flex-start;
     }
 
     .left{
@@ -174,18 +155,19 @@ main{
     }
 
     .item{
-        width: 90%;
+        width: 85%;
+        height : 38%;
     }
 
     .title_service{
-        margin : 17vw 0;
+        margin : 14vh 0;
         font-size: 70px;
     }
 }
 
 @media (max-width:570px){
     .title_service{
-        margin : 17vw 0;
+        margin : 12vh 0;
         font-size: 50px;
     }
 
@@ -194,7 +176,7 @@ main{
     }
 
     .item{
-        height:40vh
+        height:35vh
     }
 }
 
@@ -213,9 +195,9 @@ main{
     }
 }
 
-@media (max-width:300px){
+@media (max-width:475px){
     .title_service{
-        margin : 38vw 0;
+        margin : 17vh 0;
         font-size: 30px;
     }
 
@@ -229,10 +211,5 @@ main{
 
     .nav-link{
         padding:0;
-    }
-
-    .article-icone{
-        display:none;
-        visibility: hidden;
     }
 }
