@@ -37,8 +37,8 @@ header {
 .iconeTextHeader {
     color: rgba(0, 0, 0, 0);
     position :relative;
-    top:-25px;transition: all ease-in-out 0.25s;
-
+    top:-25px;
+    transition: all ease-in-out 0.25s;
 }
 
 .ulheader > li:hover .iconeHeader{
@@ -48,7 +48,6 @@ header {
 
 .ulheader > li:hover .iconeTextHeader {
     color: rgb(255, 255, 255);
-
     transform: translateY(15px);
 }
 
@@ -108,6 +107,12 @@ main{
     font-size: 90px;
     color: rgb(157, 184, 255);
     font-family: 'K2D', sans-serif;
+    transition: all ease-in-out 0.25s;
+}
+
+
+.right:hover + .left > a > h2 {
+    color : transparent;
 }
 
 .service_link{
